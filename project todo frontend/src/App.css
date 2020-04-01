@@ -1,0 +1,15 @@
+.container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: -3px 12px 24px -12px rgba(0,0,0,0.5); 
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 400;
+  margin: 20px 0;
+  line-height: 60px;
+  text-align: center;
+  color: rgba(255, 0, 0, 0.459);
+}

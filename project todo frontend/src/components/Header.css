@@ -1,0 +1,45 @@
+.header {
+    border: 1px solid rgba(112, 107, 107, 0.116);
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.arrowdown {
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 10px;
+    background: white;
+    outline: none;
+    border: solid rgba(112, 107, 107, 0.411);
+    border-width: 0 3px 3px 0;
+    /* display: inline-block; */
+    padding: 5px;
+    transform: rotate(45deg) translateY(-90%);
+}
+
+.active {
+    display: inline-block;
+}
+
+.arrowdown:focus,
+.arrowdown:active {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+}
+
+.header__input {
+    display: block;
+    margin: 0 50px 0;
+    width: 300px;
+    border: none;
+    font-size: 20px;
+    outline: 0;
+}
+
+.header__input::placeholder {
+    color: #E8E9EB
+}
